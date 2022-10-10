@@ -4,6 +4,18 @@
 <head>
 
     <title>Home Work Tabel & Form </title>
+    <style>
+        table, th, td {
+  border: 1px solid;
+}
+input , textarea{
+  border: 2px solid red;
+  border-radius: 4px;
+}
+th{
+    background-color: dimgrey;
+}
+    </style>
 </head>
 
 <body>
@@ -67,13 +79,11 @@
                     <div>
                         <label for="gender_All">Gender : </label>
                     </div>
-                    <br>
 
                     <div>
                         <label for="male">Male</label>
                         <input type="radio" id="male" name="gender" value="male">
                     </div>
-                    <br>
 
                     <div>
                         <label for="fmale">Fmale</label>
@@ -91,22 +101,27 @@
                     </div>
                     <br>
                     <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone" placeholder="078">
+                    </div>
+                    <br>
+                    <div>
                         <label for="bio">Bio</label>
                         <textarea name="bio" id="bio">
-                          
                         </textarea>
                     </div>
-                    <div>
-                        <p>I Agree with terms and conditions</p>
-                        <input type="checkbox" id="check" name="check">
-                    </div>
+
+                        <p>I Agree with terms and conditions
+                        <input type="checkbox" id="check" name="check"></p>
+                        <p>Contact with me
+                        <input type="checkbox" name="contact" id="contact"></p>
             </fieldset>
         </form>
     </section>
 
     <hr>
     <section>
-        <table>
+        <table width="60%" height="50%">
             <thead>
                 <tr>
                     <th><i>First Name</i></th>
@@ -119,7 +134,6 @@
                     <th><i>Gender</i></th>
                     <th><i>Bio</i></th>
                     <th><i>Color</i></th>
-                    <th><i>Phone</i></th>
                     <th><i>Location</i></th>
                 </tr>
             </thead>
@@ -135,7 +149,6 @@
                     <td>male</td>
                     <td>my name is hamza abu qwaider</td>
                     <td>Blue</td>
-                    <td>0781328569</td>
                     <td>jordan</td>
                 </tr>
                 <tr>
@@ -149,7 +162,6 @@
                     <td>male</td>
                     <td>my name is khaled ahmad</td>
                     <td>black</td>
-                    <td>0781328569</td>
                     <td>Iraq</td>
                 </tr>
                 <tr>
@@ -163,7 +175,6 @@
                     <td>fmale</td>
                     <td>my name is Alaa omar</td>
                     <td>red</td>
-                    <td>0781328569</td>
                     <td>syria</td>
                 </tr>
             </tbody>
