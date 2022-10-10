@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Home Work Tabel & Form </title>
+</head>
+
+<body>
+    <section>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Registration From</legend>
+                <div>
+                    <label for="f_name">First Name</label>
+                    <input type="text" name="name" id="f_name" placeholder="Write the First name">
+                </div>
+                <br>
+                <div>
+                    <label for="l_name">Last Name</label>
+                    <input type="text" name="name" id="l_name" placeholder="Write the Last Name">
+                </div>
+                <br>
+
+                <div>
+                    <label for="u_email">Email</label>
+                    <input type="email" name="email" id="u_email" placeholder="Write the Email">
+                </div>
+                <br>
+
+                <div>
+                    <label for="u_password">Password</label>
+                    <input type="password" name="password" id="u_password" placeholder="write the password">
+                </div>
+                <br>
+
+                <div>
+                    <label for="u_birth">Date of Birth</label>
+                    <input type="date" name="birth" id="u_birth" placeholder="Add Birth date">
+                </div>
+                <br>
+
+                <div>
+                    <label for="u_birth_p">Place of Birth</label>
+                    <input type="text" name="birth_p" id="u_birth_p" placeholder="Add Birth place">
+                </div>
+                <br>
+
+                <div>
+                    <label for="u_color">Color</label>
+                    <label for="">Whate is the favorite color</label>
+                    <input type="color" name="color" id="u_color">
+                </div>
+                <div>
+                    <label for="att_cv">Add Cv</label>
+                    <input type="file" name="cv" id="att_cv" placeholder="Add your Cv">
+                </div>
+                <br>
+
+                <div>
+                    <label for="u_age">Age</label>
+                    <input type="number" name="age" id="u_age" min="18" max="50" placeholder="Add your age">
+                </div>
+                <br>
+
+                <div>
+                    <div>
+                        <label for="gender_All">Gender : </label>
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="fmale">Fmale</label>
+                        <input type="radio" id="fmale" name="gender" value="fmale">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="plac">Choose the place:</label>
+                        <select name="place" id="plac">
+                            <option value="jordan">jordan</option>
+                            <option value="Iraq">Iraq</option>
+                            <option value="Syria">Syria</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="bio">Bio</label>
+                        <textarea name="bio" id="bio">
+                          
+                        </textarea>
+                    </div>
+                    <div>
+                        <p>I Agree with terms and conditions</p>
+                        <input type="checkbox" id="check" name="check">
+                    </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <hr>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th><i>First Name</i></th>
+                    <th><i>Last Name</i></th>
+                    <th><i>Email</i></th>
+                    <th><i>Date Of Birth</i></th>
+                    <th><i>Place Of Birth</i></th>
+                    <th><i>Age</i></th>
+                    <th><i>Cv File</i></th>
+                    <th><i>Gender</i></th>
+                    <th><i>Bio</i></th>
+                    <th><i>Color</i></th>
+                    <th><i>Location</i></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hamza</td>
+                    <td>abu qwaider</td>
+                    <td>hamza@mail.com</td>
+                    <td><time datetime="1999">21-8-1999</time></td>
+                    <td>Amman</td>
+                    <td>23</td>
+                    <td>cv.pdf</td>
+                    <td>male</td>
+                    <td>my name is hamza abu qwaider</td>
+                    <td>Blue</td>
+                    <td>jordan</td>
+                </tr>
+                <tr>
+                    <td>khaled</td>
+                    <td>ahmad</td>
+                    <td>khaled@mail.com</td>
+                    <td><time datetime="1990">21-5-1990</time></td>
+                    <td>zarqa</td>
+                    <td>25</td>
+                    <td>cv.pdf</td>
+                    <td>male</td>
+                    <td>my name is khaled ahmad</td>
+                    <td>black</td>
+                    <td>Iraq</td>
+                </tr>
+                <tr>
+                    <td>Alaa</td>
+                    <td>omar</td>
+                    <td>Alaa@mail.com</td>
+                    <td><time datetime="1989">5-8-1989</time></td>
+                    <td>Amman</td>
+                    <td>30</td>
+                    <td>cv.pdf</td>
+                    <td>fmale</td>
+                    <td>my name is Alaa omar</td>
+                    <td>red</td>
+                    <td>syria</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
