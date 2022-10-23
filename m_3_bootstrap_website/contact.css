@@ -1,0 +1,20 @@
+.main-contact {
+    height: 80vh;
+    position: relative;
+}
+
+.parent{
+    background-color: rgb(255 237 237);
+    height: 80vh;
+    position: relative;
+}
+
+.Contact{
+    text-align: center;
+    margin: 10% 42%;
+    position: absolute;
+}
+
+input {
+    margin-bottom: 9px;
+}

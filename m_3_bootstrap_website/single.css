@@ -1,0 +1,50 @@
+section{
+    background-color: rgb(73, 46, 46);
+    height: 80vh;
+    position: relative;
+}
+
+#htu-card-single {
+    background-image: url(./assets/images/harry.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    margin-top: 5rem;
+    color: white;
+}
+
+#cards {
+    width: 92%;
+    margin: 5rem 3rem;
+    position: absolute;
+}
+
+.author,.date-book,.name-book {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+.add  {
+border-radius: 5px; 
+border: none;
+margin-left: 35px;
+text-align: center;
+background-color:brown;
+font-size: larger;
+transition: 1s;
+}
+
+.add:hover {
+    transform: scale(1.1);
+}
+.add a {
+    text-decoration: none;
+    color: white;
+}
+.information {
+    margin-left: 80px;
+    margin-right: 80px;
+}
