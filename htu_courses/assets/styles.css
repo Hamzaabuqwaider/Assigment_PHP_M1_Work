@@ -1,0 +1,19 @@
+#htu-hero>div {
+    background-color  : #fff;
+    -webkit-box-shadow: 0px 0px 16px 15px rgba(63, 64, 64, 0.80);
+    box-shadow        : 0px 0px 16px 15px rgba(63, 64, 64, 0.80);
+    border-radius     : 15px;
+}
+
+.htu-card-wrapper .card {
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    height          : 3.5rem;
+}
+
+footer p {
+    color: #e8e8e8;
+}
