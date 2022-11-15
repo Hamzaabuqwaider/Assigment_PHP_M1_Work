@@ -1,0 +1,63 @@
+.main-section {
+    background-color: #ddd;
+    border-radius   : 30px;
+}
+
+.section-1 {
+    padding            : 0 86px;
+    /* background-color: #ddd; */
+
+
+}
+
+.section-2 {
+    padding            : 0px 70px;
+    /* background-color: #ddd; */
+}
+
+.x {
+    margin: 20px 0px;
+}
+
+.button-1 {
+    background-color: blue;
+    padding         : 1rem;
+    border-radius   : 3px;
+    border          : none;
+    margin          : 1rem;
+    margin-left     : 91px;
+
+}
+
+.button-1 a {
+    color: white;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #3b393b;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size    : 1rem;
+    line-height  : 2.15;
+    padding-left : .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.mex2 {
+    padding: 0px 106px;
+}
+
+.mex1 {
+    padding-right: 63px;
+}
+
+#search {
+    margin-top : 12px;
+    margin-left: -21px;
+}

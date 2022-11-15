@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 7rem auto;
+    width: 70vw;
+}
+
+.contact-me {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.h-contact ,
+.h-technical,
+.h-personal,
+.h-intership {
+    margin-bottom: 20px;
+}
+
+.contact-me p 
+{
+    padding: 8px;
+}
+.technical p ,
+.personal p{
+    padding: 4px;
+}
+
+.personal,
+.intership,
+.summary,
+.project,
+.experiance,
+.education,
+.languages {
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #000;
+    opacity: .5;
+}
+h1 {
+    text-align   : center;
+    font-size    : 4rem;
+    background-color: #eee;
+}
+.h-summary,
+.h-experiance,
+.h-education,
+.h-languages{
+    margin-bottom: 20px;
+
+}
+
+.parent {
+    display: flex;
+}
+
+
+.time {
+    opacity: .5;
+}
+
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+.cvimg {
+    width: 300px;
+}
+.p-summary,
+.p-project,
+.p-experiance {
+    font-family: 'Fira Sans', sans-serif;
+}
+.education p , .experiance p , .languages p {
+    font-family: 'Fira Sans', sans-serif;
+}
+.p-project{
+    margin-bottom: 20px;
+}
+.colorsection{
+    background-color: #e1e1e1;
+    padding-top: 15px;
+    margin-right: 20px;
+    padding-bottom: 15px;
+    padding-left:20px ;
+}
+.section2 {
+    padding-top : 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.project h3 {
+    line-height: 55px;
+    opacity: 0.5;
+}
+.h-project {    
+    margin-bottom: 2px;
+
+}
+section {
+    border: 2px solid #c8c8c8;
+}
+
+@media (max-width:852px) {
+    .parent {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .colorsection {
+        background-color: #e1e1e1;
+        padding-top: 15px;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 15px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:416px) 
+{
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        background-color: #eee;
+    }
+    img {
+        width: 180px;
+        height: 179px;
+    }
+
+    .cvimg {
+        width: 235px;
+        display: flex;
+        justify-content: center;
+    }
+
+    @media (min-width:367px) and (max-width:416px) {
+        h1 {
+            text-align: center;
+            font-size: 25px;
+            background-color: #eee;
+        }
+        h2 {
+            font-size: 15px;
+        }
+        
+        .contact-me p a {
+            font-size: 15px;
+        }
+        .personal p {
+            font-size: 15px;
+        }
+        .intership p  {
+            font-size: 15px;
+        }
+        .technical p  {
+            font-size: 15px;
+        }
+
+        .summary p  {
+            font-size: 15px;
+        }
+
+        .project p  {
+            font-size: 15px;
+        }
+
+        .experiance p  {
+            font-size: 15px;
+        }
+
+        .education p  {
+            font-size: 15px;
+        }
+
+        .languages p  {
+            font-size: 15px;
+        }
+    }
+}
